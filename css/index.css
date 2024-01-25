@@ -1,0 +1,81 @@
+.cafe{
+    margin:20px 150px; 
+    font-size: 90px;
+    font-style: oblique;
+    color: #804e69;
+  }
+  .cafe:hover{
+      text-decoration: underline;
+      transition: o.5s;
+  }
+  .cake{
+      padding: 10px 10px;
+      width: 1250px;
+      margin: 20px 20px;
+      color:rgb(221, 214, 214);
+      font-size: 30px;
+      text-align: justify;
+      font-style: italic;
+      font-weight: bolder;
+       }
+  .cake1{
+      width: 330px;
+      height: 680px;
+      background-color: rgb(237, 201, 218);
+      border: 2px solid black;
+      border-radius: 15px 15px 15px 15px;
+      margin-left:50px;
+      display: inline-block;
+      box-shadow: 0 0 10px 5px rgb(92, 87, 87);
+      color: #804e69;
+      
+  }
+   .cake-P{
+    font-size: 25px;
+    padding: 15px ;
+    margin: 10px 10px;
+    
+   }
+   .rupees{
+    font-size: 40px;
+    padding-left: 40px;
+   
+   }
+  h1{
+      padding-top: 5px;
+      padding-left: 20px;
+      font-size: 40px;
+  }
+  .cakeB{
+      padding-left: 23px;
+      width: 280px;
+    
+  }
+  .cake2{
+    margin-left: 40px;
+}
+  
+  button{
+      width: 150px;
+      height: 50px;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 80px;
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      border-radius: 25px 25px;
+  }
+  button:hover{
+      transition: 0.5s;
+      box-shadow: 0 0 10px 5px gray;
+      text-decoration: underline;
+  }
+  body{
+  background-image: url("./../images/background_cake_2.jpg");
+  height: 850px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+      
+  }

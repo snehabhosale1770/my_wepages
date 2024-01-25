@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Hotel Booking</title>
+</head>
+
+<body>
+    <hr />
+    <img src="./../images/hotel_1.webp" alt="hotel" height="150">&nbsp;<img src="./../images/hotel_2.jpg" alt="hotel1" height="150">&nbsp;<img
+        src="./../images/hotel_3.jpg" alt="hotel3" height="150"><br />
+    <h1>&nbsp;&nbsp;Hotel Booking</h1>
+    <p>Experiance Something New Every Moment...!!!</p>
+    <label for="name"><b>Name</b></label><br /><br />
+    <input type="text" id="name" placeholder="First Name">&nbsp;<input type="text" id="name1" placeholder="Last Name"
+        required><br /><br />
+    <label for="email"><b>Email </b></label>&nbsp;
+    <input type="text" id="email" placeholder="ex.myname@example,com" required><br /><br />
+    <form>
+        <label for="room"><b>Room Type</b></label>&nbsp;
+        <input List="RoomType" id="room" placeholder="Please Select"/>
+        <datalist id="RoomType">
+            <option>Standard</option>
+            <option>Private</option>
+            <option>Family</option>
+            <option>Local</option>
+            <option>Luxury</option>
+        </datalist>
+    </form><br />
+    <label for="num"><b>Number Of Guests</b></label>
+    <input type="number" id="num" ><br /><br />
+    <form>
+        <label for="td"><b>Arrival Date & Time</b></label>&nbsp;
+        <input type="datetime-local" id="td">
+    </form><br />
+    <h3>Free Pickup?*</h3>
+    <form>
+    <input type="radio" name="pickup"> Yes Please!- Pick me up arrival <br/>
+    <input type="radio" name="pickup"> No Thanks- I'll make my own way there
+</form><br />
+<h3> <b>Flight Number</b></h3>
+<input type="number"><br /><br />
+<button><u> <b>Submit</b></u></button>
+    
+</body>
+
+</html>
