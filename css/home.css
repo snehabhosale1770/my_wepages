@@ -18,6 +18,11 @@ body{
   padding: 20px 70px;
   color: black;
 }
+.anchor:hover{
+  background-color: rgb(237, 201, 218);
+  border: 2px solid black;
+ box-shadow: 0 2px 10px black;
+}
 .a1{
 margin-left: 900px;
 }
@@ -65,7 +70,7 @@ width:250px;
 margin-left: 50px;
 }
 .div_3{
-  margin-left: 200px;
+  margin-left: 300px;
 }
 .parent{
   margin-top: 2px;
@@ -80,4 +85,31 @@ margin-left: 50px;
   border: 2px solid black;
   border-radius: 150px 150px 150px 150px;
   box-shadow: 0px 5px 15px black;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  padding: 20px;
+}
+.icon:hover{
+  background-color: rgb(237, 201, 218);
+  box-shadow: 0 2px 20px black;
+}
+.f1{
+  position:fixed;
+  bottom: 30px;
+  right: 250px;
+  border-radius: 50%;
+}
+.i1{
+  position:fixed;
+  bottom: 30px;
+  right: 150px;
+  border-radius: 50%;
+}
+.t1{
+  position:fixed;
+  bottom: 30px;
+  right: 50px;
+  border-radius: 50%;
 }
